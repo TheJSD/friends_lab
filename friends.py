@@ -64,7 +64,10 @@ people = [person1, person2, person3, person4, person5]
 # 1. Define a function called get_name(person) that returns the given person's name
 # INPUT: person5
 # OUTPUT: "Daphne"
+def get_name(person):
+    return person["name"]
 
+print(get_name(person5))
 
 # 2. Define a function called get_favourite_tv_show(person) that returns the given person's favourite TV show
 # INPUT: person2
