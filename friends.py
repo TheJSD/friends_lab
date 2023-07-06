@@ -117,6 +117,13 @@ print(person2["friends"])
 # 6. Define a function called total_money(people) that returns the total of everyone's money
 # INPUT: people
 # OUTPUT: 143
+def total_money(people):
+    money = 0
+    for person in people:
+        money += person["monies"]
+    print(money)
+
+total_money(people)
 
 
 # 7. Define a function called lend_money(lender, borrower, amount) that removes a given amount from the lender and adds it to the borrower
